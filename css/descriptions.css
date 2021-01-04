@@ -1,0 +1,500 @@
+img {
+    vertical-align: top;
+    border: 0;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+/*头部*/
+.header{
+	/*border: 1px solid red;*/
+}
+/*设置一个版心*/
+.main{
+	width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+/*logo*/
+.con{
+	padding: 6px 0px 23px;
+	position: relative;
+	height: 100px;
+}
+.logo{
+	float: left;
+}
+.text{
+	float: right;
+	width: 250px;
+	padding-top:20px ;
+}
+.header .con .text img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.text p{
+	font-size: 14px;
+}
+.text h3{
+	font-size: 24px;
+    color: #00703a;
+	/*font-weight: 300;*/
+}
+/*首页导航*/
+.pc_nav{
+	background: #00703a;
+    position: relative;
+    border-top: 3px solid #BAE206;
+}
+/*首页导航下面的文字*/
+.pc_nav .clearfloat li{
+	padding: 0 16px;
+	margin: 0 5px;
+	display: inline-block;
+    padding: 0 38px;
+    line-height: 50px;
+    margin: 0 10px;
+    position: relative;
+    z-index: 99;
+}
+.clearfloat li a{
+	display: block;
+    font-size: 16px;
+    color: #fff;
+}
+/*给每个ui li 设置hover*/
+/*.clearfloat li:hover{
+	background: #bae206;
+    border-top: 7px solid #bae206;
+    margin-top: -7px;
+    transition: all .1s;
+}*/
+.wen{
+	/*padding: 0 16px;*/
+	/*margin: 0 5px;*/
+	display: inline-block;
+    /*padding: 0 38px;*/
+    line-height: 50px;
+    /*margin: 0 10px;*/
+    position: relative;
+	background: #bae206;
+    border-top: 7px solid #bae206;
+    margin-top: -7px;
+    transition: all .1s;
+}
+.clearfloat li dl{
+	display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    z-index: 5;
+    /*background: red;*/
+   text-align: center;
+}
+/*给dl设置hover*/
+.clearfloat li:hover dl{
+	display: block;
+    transition: all .1s;
+}
+.clearfloat li dl a{
+	display: block;
+    font-size: 16px;
+    color: #fff;
+}
+.clearfloat li dl dd a{
+	display: block;
+    background: rgba(0,122,58,.5);
+    height: 0;
+    font-size: 14px;
+    transition: all .4s ease;
+    overflow: hidden;
+    
+}
+.clearfloat li:hover dl dd a {
+    height: 40px;
+    line-height: 40px;
+    transition: all .4s ease;
+}
+.clearfloat li dl dd a:hover{
+	transition: all .4s ease;
+    background: rgba(0,122,58,.8);
+}
+/*身体部分*/
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.swiper-container-android .swiper-slide, .swiper-wrapper {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+}
+.swiper-slide img{
+    width: 100%;
+}
+/*地址导航*/
+.neiye h6 {
+    background: #f7f7f7;
+    color: #b6b6b6;
+    line-height: 58px;
+    font-size: 12px;
+}
+.neiye h6 a {
+    color: #b6b6b6;
+}
+.clearfloat {
+    clear: both;
+    zoom: 1;
+}
+.neiye .left {
+    width: 235px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.neiye .left .top {
+    margin-left: 10px;
+    width: 220px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid #00703A;
+    position: relative;
+}
+.neiye .left .top .bg {
+    background: #00703A;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    color: #fff;
+    padding: 20px 25px;
+    box-sizing: border-box;
+}
+/*左边导航栏*/
+.neiye .left dl dd:hover, .neiye .left dl dd.on {
+    color: #00703A;
+}
+.neiye .left .top .bg p {
+    font-size: 16px;
+}
+.neiye .left .top .bg h3 {
+    font-size: 20px;
+}
+.neiye .left dl dd:hover, .neiye .left dl dd.on {
+    color: #00703A;
+}
+.neiye .left dl dd {
+    display: block;
+    margin-top: 25px;
+    color: #8a8a8a;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*左边导航栏下边图片*/
+.neiye .left .list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 35px;
+}
+.neiye .left .list h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.neiye .left .list h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.neiye .left .list ul li {
+    margin-bottom: 20px;
+    color: #4d4d4e;
+    cursor: pointer;
+}
+.neiye .left .list ul li img {
+    width: 100%;
+}
+.neiye .left .list ul li h3 {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.left {
+    float: left;
+}
+/*右边隐藏的图片内容*/
+.ww768 {
+    display: none;
+}
+.neiye .ww768 h3 {
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #00703A;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.neiye .ww768 h3::after {
+    position: absolute;
+    content: '';
+    right: 15px;
+    top: 50%;
+    margin-top: -5px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(45deg);
+    transition: all .3s;
+}
+/*.ww768 未设置内容*/
+.right {
+    float: right;
+}
+.neiye .right {
+    width: 925px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #666;
+    font-size: 14px;
+}
+.neiye .right ul {
+    display: none;
+    clear: both;
+    overflow: hidden;
+}
+.neiye .right.news ul li {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.neiye .right ul li {
+    width: 298px;
+    margin-right: 15px;
+    float: left;
+    margin-bottom: 30px;
+}
+.neiye .right.news ul li h3 {
+    text-align: left;
+    background: none;
+    line-height: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.neiye .right ul li h3 {
+    font-size: 16px;
+    background: #f5f5f5;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height: 58px;
+    font-weight: normal;
+}
+.neiye .right.news ul li h3 span {
+    float: right;
+    font-size: 12px;
+    color: #ccc;
+}
+.neiye .right.news ul li:hover h3 {
+    color: #00703A;
+    border-bottom: 1px solid #00703A;
+}
+/*下面导航条*/
+.paging {
+    text-align: center;
+    margin: 30px 0;
+}
+.paging a {
+    padding: 5px 12px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e2e2e2;
+}
+.paging a {
+    padding: 5px 12px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e2e2e2;
+}
+.right {
+    float: right;
+}
+.neiye .right ul li .img {
+    padding-bottom: 75%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.neiye .right ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.neiye .right ul li h3 {
+    font-size: 16px;
+    background: #f5f5f5;
+    text-align: center;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height: 58px;
+}
+/*尾部*/
+/*尾部*/
+.footer {
+    clear: both;
+    overflow: hidden;
+    background: #212121;
+    position: relative;
+    /*top: 50px;*/
+  	 /*height: 336.88px;*/
+}
+.footernav{
+	/*border: 1px solid red;*/
+}
+.footernav ul {
+    text-align: center;
+    margin: 30px 0 15px;
+}
+@media only screen and (max-width: 1200px)
+.footernav ul li {
+    padding: 0 15px;
+    margin: 0 10px;
+}
+@media only screen and (max-width: 1200px)
+.main {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.footernav ul li {
+    display: inline-block;
+    padding: 0 38px;
+    margin: 0 10px;
+    position: relative;
+}
+.footernav ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+
+/*尾部公司简介*/
+.footer .clearfloat {
+    padding: 15px 0 35px;
+}
+.footer .text {
+    float: left;
+    width: 372.3px;
+}
+.footer .text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+.footer .text p {
+    color: #808080;
+    font-size: 14px;
+}
+.footer .text p {
+    color: #808080;
+    font-size: 14px;
+}
+.footer .text p {
+    color: #808080;
+    font-size: 14px;
+}
+.footer .text h4 {
+    margin-top: 15px;
+    color: #808080;
+    font-size: 14px;
+     font-weight: normal;
+}
+.footer .text h4 a {
+    margin-top: 15px;
+    color: #808080;
+    font-size: 14px;
+    font-weight: normal;
+}
+.footer .img {
+    float: right;
+}
+.footer .img dl {
+    float: left;
+    margin-right: 35px;
+}
+.footer .img dl dd {
+    font-size: 14px;
+    line-height: 28px;
+    color: #808080;
+}
+.footer .img .erweima {
+    float: left;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 60px;
+    margin-left: 25px;
+    border-left: 1px solid #808080;
+}
+.footer .img .erweima img {
+    width: 110px;
+    margin-bottom: 25px;
+}
+.clearfloat::after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.footer h6 {
+    padding: 20px 0;
+    background: #292929;
+    color: #808080;
+    font-size: 14px;
+}
+.footer h6 a {
+    float: right;
+    color: #808080;
+    font-size: 14px;
+}
